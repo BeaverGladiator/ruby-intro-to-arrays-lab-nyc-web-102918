@@ -22,3 +22,8 @@ def first_element_with_array_methods(array)
   first_element = array.shift
   return first_element
 end
+
+def last_element_with_array_methods(array)
+  last_element = array.pop
+  return last_element
+end
